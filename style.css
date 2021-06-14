@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    background-color: #0E6655;
+}
+#title{
+    margin-bottom: -30px;
+    text-align: center;
+    color: beige;
+}
+#tag{
+    
+    text-align: right;
+    color: beige;
+    
+}
+#pict{
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 50%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-between;
+    border: 5px black;
+    
+}
+
+#side{
+    margin-top: 30px;
+    margin-right:100px;
+    border: solid black;
+    height: 650px;
+    width: 290px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: white;
+
+
+}
+#contetent{
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: white;
+    border: solid black;
+    height: 650px;
+    width: 1200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+
+}
+footer{
+    text-align: center;
+    right: 0;
+    height: -6px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    color: thistle;
+    background-color: #0E6655;
+}
+
+.pays{
+    background-color: #0E6655;
+    color: white;
+}
+
+.pays:hover{
+    background-color: seashell;
+    color: black;
+}
